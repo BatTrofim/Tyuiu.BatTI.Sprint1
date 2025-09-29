@@ -13,7 +13,6 @@ namespace Tyuiu.BatTI.Sprint1.Task1.V21.Lib
         public double Calculate(double x, double y)
         {
         return (x * y) / (3 + y);
-
         }
     }
 }
