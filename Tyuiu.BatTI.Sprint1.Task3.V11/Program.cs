@@ -28,23 +28,12 @@ namespace Tyuiu.BatTI.Sprint1.Task3.V11
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
 
-            Console.WriteLine("Введите первую координату х: ");
-            double x1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите первую координату у: ");
-            double y1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите вторую координату х: ");
-            double x2 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите вторую координату у: ");
-            double y2 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите третью координату х: ");
-            double x3 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите третью координату у: ");
-            double y3 = Convert.ToDouble(Console.ReadLine());
+            double x1 = -2.0;
+            double y1 = 5.0;
+            double x2 = 1.0;
+            double y2 = 7.0;
+            double x3 = 5.0;
+            double y3 = -3.0;
 
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ: площадь прямоульгоника                                       *");
