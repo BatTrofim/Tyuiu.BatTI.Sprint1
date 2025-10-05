@@ -12,8 +12,8 @@ namespace Tyuiu.BatTI.Sprint1.Task7.V23.Test
             double x = 1;
             double y = 2;
             double wait = 1.265;
-            var res = ds.Calculate(x, y);
-            Assert.AreEqual(wait, res);
+            var z = ds.Calculate(x, y);
+            Assert.AreEqual(wait, z);
         }
     }
 }

@@ -31,8 +31,10 @@ namespace Tyuiu.BatTI.Sprint1.Task7.V23
             Console.WriteLine("x - 10^sinx + (20 * x^2 / 3 * x^3) + cos(x^2 - y)                           ");
 
             double x, y;
+
             Console.WriteLine("Введите значение Х:");
             x = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение У:");
             y = Convert.ToDouble(Console.ReadLine());
 
